@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+//import CaptureEmailUI from './App';
 import CaptureEmailUI from './App';
 import reportWebVitals from './reportWebVitals';
 
 const e = React.createElement;
+
+//<CaptureEmailUI/>
 
 // Find all DOM containers, and render our component into them.
 const containers = document.querySelectorAll('.cap-ui')

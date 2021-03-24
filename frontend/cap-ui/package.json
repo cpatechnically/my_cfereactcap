@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "app.js",
   "scripts": {
-    "start": "python -m http.server",
+    "start": "python -m http.server 8888",
     "build": "npx babel app.js --out-file app.min.js --presets minify --watch"
   },
   "author": "",

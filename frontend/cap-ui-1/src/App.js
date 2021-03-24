@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-
 import { getCookies, useDisplayMsg } from './utils';
 
 
@@ -13,7 +11,7 @@ const baseURL = 'http://127.0.0.1:8000'
 const CaptureEmailUI = (props) => {
   const [value, setValue] = useState('')
   const [msg, isError, setDisplayMsg] = useDisplayMsg()
-  const [token, setToken] = useState('')
+  //const [token, setToken] = useState('')
 
   useEffect(() => {
     const url = `${baseURL}/api/capture/token/`

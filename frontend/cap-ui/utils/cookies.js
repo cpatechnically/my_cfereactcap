@@ -1,6 +1,4 @@
 export const getCookies = (name) => {
-    // vanilla javascript
-    // docs have jquery
     var cookies = {};
     if (document.cookie && document.cookie !== '') {
         document.cookie.split(';').forEach(function (c) {
